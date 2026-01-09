@@ -8,4 +8,4 @@ def sayHello():
 
 @app.get("/about")
 def aboutus():
-    return {"message":"I'm learning FastAPI"}
+    return {"message":"FastAPI"}
