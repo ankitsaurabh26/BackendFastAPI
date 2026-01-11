@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Path
+from fastapi import FastAPI, Path, HTTPException
 import json
 
 app = FastAPI()
@@ -24,6 +24,7 @@ def view_patient(patient_id : str = Path(..., description="ID of the patient in 
     if patient_id in data:
         return data[patient_id]
     
-    return {"Error":"Patient not found!"}
+    # return {"Error":"Patient not found!"}
+    raise HTTPException(status_code=404, detail="Patient not found!")
 
 # The path() function in FastAPI is used to provide metadata, validation rules, and documentation hints for path parameters in API endpoints
