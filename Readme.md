@@ -267,5 +267,23 @@ raise HTTPException(
     headers={"X-Error": "Custom-Header-Value"}
 )
 ```
-
 ---
+
+### Query Parameter
+
+They are **optional key-value pairs** appended to the end of a URL **to pass additional data** to the server in an HTTP request. 
+
+They are typically employed for operations like:
+- Filtering
+- Sorting
+- Searching
+- Pagination: Deciding how many results to show on one page. 📄
+
+#### 📍 How they look
+`https://example.com/items?limit=10&sort=desc`
+
+- `?` → Starts the query parameters.
+- `limit=10` → The first parameter (Key is `limit`, Value is `10`).
+- `&` → Used to separate multiple parameters.
+- `sort=desc` → The second parameter.
+  
