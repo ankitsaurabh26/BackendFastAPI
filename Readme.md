@@ -234,3 +234,13 @@ def sayHello():
 
 #### To Run
 > uvicorn filename:app --reload
+---
+
+### HTTP Methods
+
+<p align="center">
+  <img src="./Images/HTTPMethods.png">
+</p>
+
+---
+
