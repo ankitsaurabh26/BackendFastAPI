@@ -301,3 +301,15 @@ They are typically employed for operations like:
 
 ---
 
+### POST Method Steps
+
+**Request Body**: It is the portion of an HTTP request that contains data sent by the client to the server. It is typically used in HTTP methods such as POST, or PUT to transmit structured data (eg. JSON, XML, form-data) for the purpose of creating or updating resources on the server.
+
+> **Step 1**: Getting data from the client
+
+> **Step 2**: Validation - Pydantic model
+
+> **Step 3**: Add record to the database
+
+---
+
