@@ -310,5 +310,3 @@ They are typically employed for operations like:
 > **Step 2**: Validation - Pydantic model
 
 > **Step 3**: Add record to the database
-
----
