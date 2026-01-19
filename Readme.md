@@ -312,4 +312,3 @@ They are typically employed for operations like:
 > **Step 3**: Add record to the database
 
 ---
-
